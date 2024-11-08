@@ -29,5 +29,5 @@ public class ProjectAssignment {
 
 	@ManyToOne
 	@JoinColumn(name = "role_id")
-	private Role role;
+	private Role role;	
 }
